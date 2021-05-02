@@ -1,0 +1,53 @@
+.back{
+	background-color: #2f2c3d;
+}
+.feat h2{
+	text-align: center;
+	color: #fff;
+	font-size: 50px;
+}
+.feat p{
+	color: #fff;
+	text-align: center;
+	font-size: 20px;
+	
+}
+.pic{
+	margin-left: 500px ;
+}
+.coding{
+	width: 19%;
+	display: inline-block;
+	margin-top: -45%;
+	float: left;
+	margin-left: 12%;
+}
+.coding img{
+	width: 60px;
+	height: 60px;	
+	float: right;
+	border-radius: 50%;
+}
+.r{
+	float: right;
+	width: 20%;
+	display: inline-block;
+	margin-top: -45%;
+	margin-right: 11%;
+}
+.r img{
+	width: 60px;
+	height: 60px;	
+	float: left;
+	border-radius: 50%;
+}
+.coding h2,.r h2{
+	color: #fff;	
+	font-size: 27px;
+	margin-bottom: 30px;
+}
+.coding p,.r p{
+	color: #fff;
+	word-wrap: break-word;
+	margin-bottom: 40px;
+}

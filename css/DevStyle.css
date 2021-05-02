@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Hind+Madurai:300&display=swap');
+
+body{
+	height: 100vw;
+	width: 100%;
+	box-sizing: border-box;
+	font-family: 'Open-sans',sans-serif;
+	background: #A6A8AA;
+}
+.pagename{
+	font-size: 27px;
+	padding: 10px;
+	color: gray;
+	font-family: 'Hind Madurai',sans-serif;
+}
+
+a:hover {text-decoration: none;}
+.topbar{
+	position: static;
+	width: 100%;
+	height: auto;
+	padding: 10px;
+	display: inline-flex;
+	box-shadow: 1px 1px 4px rgba(0,0,0,0.3);
+	background: #5359A7;
+	z-index: 88;
+}
+.topbar li{list-style: none;}
+	.topbar img{
+		border-radius: 100%;
+	}
+
+
+.maincontainer .left{
+	height:100vw;
+	/*max-width: 250px;*/
+	margin: 0;
+	overflow: hidden;
+	background: #393e7b;
+	color: white;
+	font-family: sans-serif;
+}
+
+.maincontainer .left li{
+	list-style: none;
+	margin: 0;
+	transition: 0.5s;
+
+}
+.maincontainer .left li:hover {background: #242D37;transition: .5s}
+.maincontainer .left li a{
+	color: #EBECED;
+}
+.maincontainer .left li .Reports li a {
+	font-size: 13px;
+
+}
+.maincontainer .left li .Reports li:hover {
+	background: #30315C;
+	transition: 0.5s;
+}
+
+
+.maincontainer .right{
+	padding-top: 5px;
+	height: 100vw;
+	width: auto;
+	overflow: hidden;
+	
+
+}
+
+
+.right-container{
+	padding: 15px;
+	height: 100%;
+	width: auto;
+	background: #6F7173;
+
+
+}
+
+input,textarea{
+	background: lightgray;
+}

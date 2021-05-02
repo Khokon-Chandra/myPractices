@@ -1,0 +1,73 @@
+
+
+a:hover {text-decoration: none;}
+.media .link{
+	display: -ms-flexbox;
+	display: flex;
+	width: 100%;
+}
+
+.media .link .fa-facebook,
+.media .link .fa-google{
+	padding: 10px;
+	font-size: 18px;
+	text-align: center;
+	min-width: 50px;
+	border: 1px solid lightgray;
+}
+
+.media .link input{
+	border: none;
+	width: 100%;
+}
+.inputBox{padding-right: 10px;}
+.form .box{
+	border-right: 1px solid lightgray;
+}
+
+
+
+
+
+
+
+
+
+.box .inputBox {
+	position: relative;
+}
+
+.box .inputBox input{
+	width: 100%;
+	padding: 10px;
+	font-size: 16px;
+	background: transparent;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid lightgray;
+	margin-bottom: 10px;
+}
+
+.box .inputBox label{
+	position: absolute;
+	color: gray;
+	top: 0;
+	left: 0;
+	padding: 10px;
+	font-size: 16px;
+	pointer-events: none;
+	transition: .5s;
+}
+.box .inputBox input:focus {border-bottom: 1px solid lightblue;}
+
+.box .inputBox input:focus ~ label,
+.box .inputBox input:valid ~ label
+{
+	top: -18px;
+	left: 0;
+	font-size: 14px;
+}
+
+.box .inputBox input:valid ~ input{
+	background: transparent;
+}
